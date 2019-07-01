@@ -1,12 +1,6 @@
-# Casper
+# nakoniecswiatablog-theme
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper. If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
-
-&nbsp;
-
-![screenshot-desktop](https://user-images.githubusercontent.com/120485/27221326-1e31d326-5280-11e7-866d-82d550a7683b.jpg)
-
-&nbsp;
+The na-koniec-swiata.pl theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper.
 
 # First time using a Ghost theme?
 
@@ -28,7 +22,6 @@ One really neat trick is that you can also create custom one-off templates just 
 - `page-about.hbs` - Custom template for the `/about/` page
 - `tag-news.hbs` - Custom template for `/tag/news/` archive
 - `author-ali.hbs` - Custom template for `/author/ali/` archive
-
 
 # Development
 
@@ -53,13 +46,11 @@ $ yarn zip
 - Variables - Simple pure CSS variables
 - [Color Function](https://github.com/postcss/postcss-color-function)
 
-
 # SVG Icons
 
 Casper uses inline SVG icons, included via Handlebars partials. You can find all icons inside `/partials/icons`. To use an icon just include the name of the relevant file, eg. To include the SVG icon in `/partials/icons/rss.hbs` - use `{{> "icons/rss"}}`.
 
 You can add your own SVG icons in the same manner.
-
 
 # Copyright & License
 
