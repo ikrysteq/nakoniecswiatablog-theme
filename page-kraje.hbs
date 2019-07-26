@@ -14,9 +14,11 @@
         <h1 class="post-full-title">{{title}}</h1>
       </header>
       {{#get 'tags' limit='all' include='count.posts' order='count.posts desc'}}
-      {{#foreach tags}}
-        {{> "tag-card"}}
-      {{/foreach}}
+        <div class="post-feed">
+          {{#foreach tags}}
+            {{> "tag-card"}}
+          {{/foreach}}
+        </div>
       {{/get}}
     </div>
   </main>
