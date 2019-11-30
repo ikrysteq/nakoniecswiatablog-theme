@@ -1954,8 +1954,7 @@ Usage (In Ghost editor):
 }
 
 .post-full-content .kg-width-wide .kg-image {
-  width: var(--content-inner-width);
-  max-width: 100vw;
+  max-width: var(--content-inner-width);
   padding: 0;
 }
 
