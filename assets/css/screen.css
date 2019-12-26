@@ -1960,8 +1960,9 @@ Usage (In Ghost editor):
 }
 
 .post-full-content .kg-width-wide .kg-image {
+  max-height: initial;
   max-width: var(--content-inner-width);
-  width: 100vw;
+  width: 100%;
   padding: 0;
 }
 
